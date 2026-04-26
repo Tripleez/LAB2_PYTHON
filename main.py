@@ -78,7 +78,7 @@ n_bins = min(int(np.ceil(np.log2(len(audio_data)) + 1)), 100)
 plt.hist(audio_data, bins=n_bins, color='purple', alpha=0.7, edgecolor='black')
 plt.title('Гистограмма амплитуд')
 plt.xlabel('Амплитуда')
-plt.ylabel('Частота')
+plt.ylabel('Частота, Гц')
 plt.grid(True)
 
 plt.tight_layout()
